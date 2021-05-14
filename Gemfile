@@ -16,8 +16,6 @@ gem 'jbuilder', '~> 2.5'
 gem 'bootsnap', '>= 1.1.0', require: false
 
 group :production do 
-  gem 'unicorn'
-  gem 'unicorn-rails'
 end
 
 group :development, :test do
@@ -38,3 +36,6 @@ group :test do
 end
 
 gem 'tzinfo-data', platforms: [:mingw, :mswin, :x64_mingw, :jruby]
+
+gem 'unicorn'
+gem 'unicorn-rails'
